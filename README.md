@@ -8,7 +8,7 @@
 
 还是学学mavel吧家人们，似乎用mavel跑一边它就把库都给你装好了。
 
-我们用lwjgl，这个库是一个缝合库，把C里面的很多游戏开发用得到的，比如openGL、openCL、openAL啥的全搬到了java里面，(https://github.com/LWJGL/lwjgl3-wiki/wiki)[官方教程]，如果要整更具体的似乎可以直接去查对应的C库的文档。
+我们用lwjgl，这个库是一个缝合库，把C里面的很多游戏开发用得到的，比如openGL、openCL、openAL啥的全搬到了java里面，[官方教程](https://github.com/LWJGL/lwjgl3-wiki/wiki)，如果要整更具体的似乎可以直接去查对应的C库的文档。
 
 要注意java里面没有指针，原来库里面要用指针而且不方便封装的部分lwjgl都整了个对应的buffer类来代替指针，比如int就有IntBuffer类，功能和函数传参时传的指针差不多。
 
